@@ -1,0 +1,25 @@
+.introducao-bg {
+  background: var(--cor-11);
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0rem 2.5rem;
+  align-items: center;
+}
+
+.introducao img {
+  border-radius: 50%;
+}
+
+.introducao-conteudo {
+  padding-bottom: 12.5rem;
+  padding-top: 12.5rem;
+}
+
+.introducao-conteudo h1 {
+  margin-bottom: 1rem;
+}
+
+
