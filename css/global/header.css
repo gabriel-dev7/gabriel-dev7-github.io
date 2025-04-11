@@ -1,5 +1,6 @@
 .header-bg {
   background: var(--cor-12);
+  position: relative;
 }
 
 .header-bg::after {
