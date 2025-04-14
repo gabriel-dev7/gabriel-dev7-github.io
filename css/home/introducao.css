@@ -6,8 +6,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 6.25rem;
+  padding-bottom: 12.5rem;
 }
 
 .introducao-conteudo {

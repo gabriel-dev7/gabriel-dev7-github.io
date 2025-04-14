@@ -1,0 +1,91 @@
+.sobre-bg {
+  background: var(--cor-11);
+  padding-bottom: 6.25rem;
+}
+
+.sobre-banner {
+  display: flex;
+  background: var(--cor-p5);
+  border-radius: 8px;
+  box-shadow: 0 0 8px 0 rgba(79, 27, 146, 0.7);
+  overflow: hidden;
+}
+
+.sobre-imagem {
+  flex: 1;
+  overflow: hidden;
+}
+
+.sobre-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.sobre-conteudo {
+  position: relative;
+  padding: 2.5rem;
+}
+
+.sobre-conteudo {
+  flex: 1;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sobre-conteudo h2 {
+  margin-bottom: 1rem;
+}
+
+.sobre-conteudo h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background: var(--cor-p1);
+  margin-top: -1rem;
+  position: absolute;
+}
+
+.sobre-conteudo p {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.sobre-conteudo nav > a {
+  background: var(--cor-12);
+  padding: 0.625rem;
+  border-radius: 8px;
+  border: 2px solid var(--cor-11);
+  margin-bottom: 2rem;
+}
+
+.sobre-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .sobre-banner {
+    flex-direction: column;
+  }
+  .sobre-imagem {
+    flex: none;
+    height: 250px;
+  }
+  .sobre-imagem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  .sobre-conteudo {
+    flex: none;
+    padding: 2rem;
+  }
+}
