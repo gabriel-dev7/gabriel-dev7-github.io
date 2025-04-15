@@ -88,4 +88,7 @@
     flex: none;
     padding: 2rem;
   }
+  .sobre-conteudo h2 {
+    margin-bottom: 0.5rem;
+  }
 }
