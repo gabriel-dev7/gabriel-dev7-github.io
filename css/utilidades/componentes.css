@@ -39,6 +39,22 @@
   background: linear-gradient(#6F42C1, #2C0E4A);
 }
 
+.botao-secundario {
+  display: inline-block;
+  background: var(--cor-p5);
+  color: var(--cor-0);
+  padding: 0.4rem 1rem;
+  border-radius: 1.5rem;
+  font-weight: 400;
+  transition: background 0.3s ease, border 0.3s ease;
+  border: 2px solid var(--cor-p1);
+  margin-left: auto;
+}
+
+.botao-secundario:hover {
+  background: var(--cor-p2);
+}
+
 @media (max-width:600px) {
   .botao {
     padding: 12px 16px;

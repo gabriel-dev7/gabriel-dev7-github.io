@@ -4,7 +4,11 @@ body {
   color: var(--cor-11);
 }
 
-h1, h2, ul, p {
+h1,
+h2,
+h3,
+ul,
+p {
   margin: 0rem;
 }
 
