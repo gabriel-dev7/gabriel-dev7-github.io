@@ -7,6 +7,7 @@
 @import "./home/introducao.css";
 @import "./home/sobre.css";
 @import "./home/projetos.css";
+@import "./home/contato.css";
 
 /*Utilidades*/
 @import "./utilidades/cores.css";
