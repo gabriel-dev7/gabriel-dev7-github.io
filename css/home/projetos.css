@@ -30,6 +30,7 @@
   height: auto;
   border-radius: 8px 8px 0 0;
   object-fit: cover;
+  max-height: 200px;
 }
 
 .projetos-conteudo {
@@ -41,4 +42,10 @@
 
 .projetos-conteudo h3, .projetos-conteudo p {
   margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .projeto-item img {
+    max-height: 150px;
+  }
 }
